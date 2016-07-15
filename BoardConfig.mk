@@ -145,3 +145,13 @@ USE_MINIKIN := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# Uber Optimizations
+export CLANG_O3 := false
+export STRICT_ALIASING := false
+export KRAIT_TUNINGS := false
+export GRAPHITE_OPTS := false
+export ENABLE_GCCONLY := true
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 5.x-uber
