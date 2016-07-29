@@ -36,11 +36,11 @@ export ENABLE_GCCONLY := true
 TARGET_GCC_VERSION_EXP := 4.9
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := hells_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/hells
+TARGET_KERNEL_CONFIG := hammerhead_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.selinux=permissive androidboot.hardware=hammerhead user_debug=31 maxcpus=2 msm_watchdog_v2.enable=1
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
