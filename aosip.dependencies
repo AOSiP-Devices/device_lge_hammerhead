@@ -1,7 +1,11 @@
 [
  {
-   "repository":  "AOSIP-Devices/platform_vendor_lge",
-   "target_path": "vendor/lge",
-   "branch":      "oms"
+   "repository":  "platform_vendor_lge",
+   "target_path": "vendor/lge"
+ },
+ {
+   "repository":  "PureNexusProject/android_kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "branch": "mm2"
  }
 ]
