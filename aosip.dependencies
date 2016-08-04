@@ -1,7 +1,8 @@
 [
  {
    "repository":  "platform_vendor_lge",
-   "target_path": "vendor/lge"
+   "target_path": "vendor/lge",
+   "branch": "mm6.0"
  },
  {
    "repository":  "PureNexusProject/android_kernel_lge_hammerhead",
