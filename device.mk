@@ -344,8 +344,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/lib/libril-qc-qmi-1.so
 
-# Camera configuration
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=1 \
     media.stagefright.codecremote=false \
     media.stagefright.legacyencoder=true \
