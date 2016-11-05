@@ -7,5 +7,10 @@
    "repository":  "PureNexusProject/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
    "branch": "mm2"
+ },
+ {
+   "repository":  "krexus/hardware_qcom_msm8x74",
+   "target_path": "hardware/qcom/msm8x74",
+   "branch": "n"
  }
 ]
