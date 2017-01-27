@@ -1,8 +1,8 @@
 [
  {
-   "repository":  "DirtyUnicorns/android_kernel_lge_hammerhead",
+   "repository":  "LineageOS/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "n7x",
+   "branch":      "cm-14.1",
    "remote":      "github"
  },
  {
